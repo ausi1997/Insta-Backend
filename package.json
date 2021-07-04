@@ -16,6 +16,9 @@
   "scripts": {
     "start": "node server.js"
   },
+  "engines": {
+    "node": "14.17.0"
+  },
   "author": "",
   "license": "ISC",
   "bugs": {
