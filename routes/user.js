@@ -5,6 +5,7 @@ const defaultRoute = require('../controllers/userControl');  // importing the us
 //const registerRoute = require('../controllers/userControl');
 const loginRoute = require('../controllers/userControl');
 const requireLogin = require('../middleware/auth');
+
 // defaulte route
 router.all('/',defaultRoute.default);
 

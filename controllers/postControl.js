@@ -1,6 +1,4 @@
 const Post = require('../models/postModel');  // importing the post module
-const requireLogin = require('../middleware/auth');
-const router = require('../routes/post');
 // default function
 
 exports.defaultroute = (req,res)=>{

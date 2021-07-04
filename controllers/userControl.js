@@ -2,9 +2,8 @@ const User = require('../models/usermodel'); // importing the user module
 const bcrypt = require('bcryptjs');
 const jwt = require('jsonwebtoken');
 const Post = require('../models/postModel');
-
 const{check,validationResult}= require('express-validator');
-const { post } = require('../routes/post');
+
 
 
 // defaultroute function

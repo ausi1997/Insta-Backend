@@ -1,8 +1,6 @@
 const express = require('express');
 const app = express();           // importing the required modules
 const bodyParser = require('body-parser');
-//const cors = require('cors');
-require('dotenv').config();
 
 // importing the  db module
 const db = require('./models/db');
@@ -11,7 +9,7 @@ const userRoutes = require('./routes/user');
 
 const postRoutes = require('./routes/post');
 
-//app.use(cors());
+
 
  // parse requests of content-type - application/json
  app.use(bodyParser.json());
